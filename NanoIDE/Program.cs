@@ -14,9 +14,11 @@ namespace NanoIDE
         [STAThread]
         static void Main()
         {
+            // TODO: 複数起動チェック
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmMain());
         }
     }
 }
