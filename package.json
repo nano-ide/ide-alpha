@@ -5,4 +5,7 @@
   "scripts": {},
   "author": "Nano Ide",
   "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
